@@ -5,39 +5,19 @@
 # with development tools, some configurations and some other software
 # (for example, steam and discord are included).
 
-# Of course, the components included in the script are the ones that I
-# personally make use of, but it should be useful for anyone who wants
-# to easily install / configure a subset (or all) of these components.
-
-# The downloader script (this one) is designed for ease of use and allows
-# optional customization of the components to install / configure.
-
-# This should work for any recent version of Pop! OS above 20.04, but the last time
-# I tested it I was on 20.04. It also works with a fresh install, with
-# no pre-requisites.
-
-# Oh, and one last thing, these scripts are idempotent, so you can
-# execute them multiple times and things won't break, nor your
-# .bashrc file will grow indefinitely.
-
-# Enjoy! :)
+# Learn more / source: https://github.com/DaniGuardiola/pop-os-setup/
 
 # Usage
 # -----
 
 # Method 1 (simplest, recommended)
 
-# Use the downloader:
-# $ source <(wget -qO - pop-os.daniguardiola.me)
+# Use the downloader (this script):
+# $ source <(wget -qO - pop-os.daniguardio.la)
 
 # Method 2 (advanced)
 
-# 1. Download this gist as ZIP and extract it
-# URL: https://gist.github.com/DaniGuardiola/def024b7571e8cda4d2043cf50872e1e/
-# 2. $ cd <path>/pop-os-setup/
-# 3. (optional) Edit the components and configurations sections in components.sh
-# 4. $ sudo chmod +x pop-os-setup.sh
-# 5. $ ./pop-os-setup.sh
+# See instructions: https://github.com/DaniGuardiola/pop-os-setup/
 
 
 echo -e "\nWelcome to the Pop! OS setup script by Dani Guardiola"

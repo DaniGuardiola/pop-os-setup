@@ -8,7 +8,9 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_VERSION/install.sh |
 # head -n -3 ~/.bashrc > tmp/.bashrc-node && cat tmp/.bashrc-node > ~/.bashrc
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
+nvm install node
+nvm use node
+nvm alias default node
 
 # install yarn
 npm i -g yarn
