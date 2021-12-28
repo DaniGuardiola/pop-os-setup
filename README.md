@@ -19,22 +19,21 @@ Oh, and one last thing, these scripts are idempotent, so you can execute them mu
 
 Enjoy! :)
 
-
 # Usage
 
 ## Method 1 (simplest, recommended)
 
 Use the downloader:
 
-```$ source <(wget -qO - pop-os.daniguardio.la)```
+`$ source <(wget -qO - pop-os.daniguardio.la)`
 
 ## Method 2 (advanced)
 
 1. Download this repo as ZIP and extract it.
-2. ```$ cd <path>/pop-os-setup/```
+2. `$ cd <path>/pop-os-setup/`
 3. (optional) Edit the components and configurations sections in `components.sh`.
-4. ```$ sudo chmod +x pop-os-setup.sh```
-5. ```$ ./pop-os-setup.sh```
+4. `$ sudo chmod +x pop-os-setup.sh`
+5. `$ ./pop-os-setup.sh`
 
 # To do
 
@@ -48,6 +47,8 @@ Use the downloader:
 - [ ] Restore GNOME extensions support.
 - [ ] Make GNOME extensions configurable in `components.sh`.
 - [ ] Handle dependencies better.
-- [ ] Add some more software: Slack, Spotify, Stremio.
+- [ ] Add some more software: Slack, Spotify, Stremio, Peek, direnv.
 - [ ] Add more configurations: launcher, workspaces, window tiling, desktop background, keyboard layouts (`en` & `es`).
+- [ ] Add timezones GNOME extension.
 - [ ] Support firmware updating.
+- [ ] Zsh???
