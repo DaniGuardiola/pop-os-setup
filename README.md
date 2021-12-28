@@ -47,8 +47,9 @@ Use the downloader:
 - [ ] Restore GNOME extensions support.
 - [ ] Make GNOME extensions configurable in `components.sh`.
 - [ ] Handle dependencies better.
-- [ ] Add some more software: Slack, Spotify, Stremio, Peek, direnv.
+- [ ] Add some more software: Slack, Spotify, Stremio, Peek, direnv, doppler.
 - [ ] Add more configurations: launcher, workspaces, window tiling, desktop background, keyboard layouts (`en` & `es`).
 - [ ] Add timezones GNOME extension.
 - [ ] Support firmware updating.
 - [ ] Zsh???
+- [ ] Set computer name.
