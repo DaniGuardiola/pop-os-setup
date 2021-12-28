@@ -53,3 +53,4 @@ Use the downloader:
 - [ ] Support firmware updating.
 - [ ] Zsh???
 - [ ] Set computer name.
+- [ ] Framework laptop fingerprint reader setup script.
