@@ -10,3 +10,4 @@ log 'Giving current user permissions to manage Docker'
 sudo groupadd docker
 sudo usermod -aG docker $USER
 
+# test
