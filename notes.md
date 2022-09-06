@@ -10,6 +10,7 @@
   - Hot corner enabled
   - Enable window tiling
   - Disable window titles
+- Add ES keyboard layout
 
 # Gnome extensions to install
 

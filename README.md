@@ -38,19 +38,11 @@ Use the downloader:
 
 # To do
 
-- [ ] Make the downloader work with the repo version.
-- [ ] Set up `pop-os.daniguardio.la` domain.
-- [ ] Extract `.bashrc` insertions into a different file, and `source` it from `.bashrc` instead.
-- [ ] General clean up, fixes, testing...
-- [ ] Restore GNOME extensions support.
-- [ ] Make GNOME extensions configurable in `components.sh`.
-- [ ] Handle dependencies better.
+- [ ] Extract `.bashrc` insertions into a different file, and `source` it from `.bashrc` instead of inlining.
 - [ ] Add some more software: Slack, Spotify, Stremio, Peek, direnv, doppler.
-- [ ] Add more configurations: launcher, workspaces, window tiling, desktop background, keyboard layouts (`en` & `es`).
-- [ ] Add timezones GNOME extension.
-- [ ] Support firmware updating.
-- [ ] Zsh???
+- [ ] Install Gnome extensions automatically.
+- [ ] Add more automatic configurations: cosmic, keyboard layout, background...
 - [ ] Set computer name.
 - [ ] Framework laptop fingerprint reader setup script.
 - [ ] Useful aliases: `g`, `wip` (`git add . && git commit -m "wip" && git push`).
-- [ ] Add Fira Code font.
+- [ ] Install Fira Code font.
