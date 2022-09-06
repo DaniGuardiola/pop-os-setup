@@ -11,6 +11,7 @@
   - Enable window tiling
   - Disable window titles
 - Add ES keyboard layout
+- Set up work stuff
 
 # Gnome extensions to install
 

@@ -8,6 +8,9 @@
 ./scripts/docker.sh
 ./scripts/docker-compose.sh
 ./scripts/node.sh
+./scripts/doppler.sh
+./scripts/pre-commit.sh
+./scripts/direnv.sh
 # ./scripts/outdated/python.sh
 # ./scripts/outdated/rust.sh
 # ./scripts/outdated/go.sh
