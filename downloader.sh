@@ -38,7 +38,7 @@ cd /tmp
 rm -rf pop-os-setup pop-os-setup.zip
 wget -O pop-os-setup.zip https://github.com/DaniGuardiola/pop-os-setup/archive/refs/heads/main.zip
 unzip -q -d pop-os-setup/ pop-os-setup.zip
-cd pop-os-setup/
+cd pop-os-setup/pop-os-setup-main/
 
 read -p "Do you want to customize the components to install? y/n " -n 1 -r
 echo
