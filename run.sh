@@ -1,14 +1,12 @@
 # pre-install
 # -----------
 
-# add execution permissions to scripts
-sudo chmod +x *.sh
-
-# create temporal dir
-mkdir tmp
-
 # load script utils
-source script-utils.sh
+source utils/lib.sh
+
+# create temporary dir
+mkdir $TMP_DIR
+
 
 # upgrade everything
 log 'Upgrading packages & firmware'
@@ -40,7 +38,7 @@ bashrc pop-os-setup 'export PATH=$PATH:$HOME/.local/bin'
 # clean up
 log 'Cleaning up...'
 sudo apt autoremove -y
-sudo rm -rf tmp
+sudo rm -rf $TMP_DIR
 
 # reboot prompt
 echo -e "\n\n\n"
@@ -51,9 +49,3 @@ then
     read -p ''
     sudo reboot
 fi
-
-
-# TODO:
-# - control for vscode existence
-# - skip configuration option
-# - pop os gnome extensions

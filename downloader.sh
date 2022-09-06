@@ -1,9 +1,9 @@
 # About
 # -----
 
-# This is a set of scripts that help me set up my Pop! OS machine
+# This is a set of scripts that help me set up my Pop!_OS machines
 # with development tools, some configurations and some other software
-# (for example, steam and discord are included).
+# (for example, discord is included).
 
 # Learn more / source: https://github.com/DaniGuardiola/pop-os-setup/
 
@@ -20,7 +20,7 @@
 # See instructions: https://github.com/DaniGuardiola/pop-os-setup/
 
 
-echo -e "\nWelcome to the Pop! OS setup script by Dani Guardiola"
+echo -e "\nWelcome to the Pop!_OS setup script by Dani Guardiola"
 echo -e "-----------------------------------------------------\n"
 
 echo -e "Source code: https://gist.github.com/DaniGuardiola/def024b7571e8cda4d2043cf50872e1e/"
@@ -32,14 +32,13 @@ echo
 # sudo cache
 sudo echo
 
-echo -e "\n> Downloading Pop! OS install scripts...\n"
+echo -e "\n> Downloading Pop!_OS install scripts...\n"
 
 cd /tmp
 rm -rf pop-os-setup pop-os-setup.zip
-wget -O pop-os-setup.zip https://codeload.github.com/gist/def024b7571e8cda4d2043cf50872e1e/zip/master
+wget -O pop-os-setup.zip https://github.com/DaniGuardiola/pop-os-setup/archive/refs/heads/main.zip
 unzip -q -d pop-os-setup/ -j pop-os-setup.zip
 cd pop-os-setup/
-sudo chmod +x pop-os-setup.sh
 
 read -p "Do you want to customize the components to install? y/n " -n 1 -r
 echo
@@ -52,9 +51,9 @@ then
     gedit components.sh
 fi
 
-echo -e "\n\n> Executing Pop! OS install scripts..."
+echo -e "\n\n> Executing Pop!_OS install scripts..."
 
-./pop-os-setup.sh
+./run.sh
 
 # load ~/.bashrc
 source ~/.bashrc

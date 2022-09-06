@@ -1,10 +1,10 @@
 # load script utils
-source script-utils.sh
+source utils/lib.sh
 
 log 'Configuring git'
 
 if [ $(git config --global user.email) ]; then
-    echo "Seems like you've already configured git!"
+    echo "Git is already configured!"
     exit 1
 fi
 

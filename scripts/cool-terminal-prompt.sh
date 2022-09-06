@@ -1,8 +1,9 @@
 # load script utils
-source script-utils.sh
+source utils/lib.sh
 
-# install prompt
-bashrc cool-prompt "
+log 'Setting up a cool terminal prompt'
+
+bashrc cool-terminal-prompt "
 case \"\$TERM\" in
 \n    xterm-color|*-256color) color_prompt=yes;;
 \nesac

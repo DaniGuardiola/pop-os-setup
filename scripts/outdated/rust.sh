@@ -1,5 +1,5 @@
 # load script utils
-source script-utils.sh
+source utils/lib.sh
 
 log 'Installing Rust'
 exit-if-installed rustc
