@@ -25,6 +25,8 @@
 ./scripts/vlc.sh
 ./scripts/discord.sh
 ./scripts/slack.sh
+./scripts/spotify.sh
+./scripts/peek.sh
 # ./scripts/outdated/telegram.sh
 # ./scripts/outdated/webtorrent.sh
 # ./scripts/outdated/steam.sh

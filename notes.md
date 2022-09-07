@@ -2,6 +2,7 @@
 
 - Log into vscode
 - Log into chrome and into web services
+- Log into / set up other apps, e.g. Slack, Spotify...
 - Configure cosmic the way I like it:
   - Dock: left-center, intelligently hide, not edge-to-edge
   - Date: aligned to the right

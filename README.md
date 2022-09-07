@@ -39,7 +39,6 @@ Use the downloader:
 # To do
 
 - [ ] Extract `.bashrc` insertions into a different file, and `source` it from `.bashrc` instead of inlining.
-- [ ] Add some more software: Spotify, Stremio, Peek.
 - [ ] Install Gnome extensions automatically.
 - [ ] Add more automatic configurations: cosmic, keyboard layout, background...
 - [ ] Set computer name.
