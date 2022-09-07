@@ -1,8 +1,7 @@
 # load script utils
 source utils/lib.sh
 
-log 'Installing fuck - github.com/nvbn/thefuck'
-exit-if-installed fuck
+log 'Installing or updating fuck - github.com/nvbn/thefuck'
 
 pip3 install thefuck --user
 bashrc fuck 'eval "$(thefuck --alias)"'
