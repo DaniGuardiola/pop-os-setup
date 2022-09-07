@@ -1,5 +1,6 @@
 # load aliases
 shopt -s expand_aliases
+touch ~/.bash_aliases
 source ~/.bash_aliases
 
 # find absolute path to tmp dir
@@ -33,8 +34,6 @@ bashrc () {
 }
 
 bash_aliases () {
-    touch ~/.bash_aliases
-
     # Idempotently add text to ~/.bash_aliases
     # $1: section id
     # $2: text to add
