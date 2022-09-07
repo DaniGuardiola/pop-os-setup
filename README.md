@@ -44,4 +44,3 @@ Use the downloader:
 - [ ] Set computer name.
 - [ ] Framework laptop fingerprint reader setup script.
 - [ ] Useful aliases: `g`, `wip` (`git add . && git commit -m "wip" && git push`).
-- [ ] Install Fira Code font.

@@ -19,6 +19,7 @@
 ./scripts/cool-terminal-prompt.sh
 ./scripts/gnome-tweaks.sh
 ./scripts/aliases.sh
+./scripts/firacode-font.sh
 
 # other software
 ./scripts/google-chrome.sh
